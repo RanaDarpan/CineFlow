@@ -1,8 +1,11 @@
-export default function Logo({width = "100px", className = ""})
-{
-    return(
-        <div className={`font-semibold text-xl tracking-tight text-neutral-200 ${className}`} style={{width}}>
-            DP
-        </div>
-    )
+export default function Logo({ width = "auto", className = "", imgClassName = "h-10 w-auto" }) {
+  return (
+    <div className={`flex items-center select-none ${className}`} style={{ width }}>
+      <img
+        src="/image.png"
+        alt="CineFlow"
+        className={`${imgClassName} object-contain transition-transform duration-200 hover:scale-105`}
+      />
+    </div>
+  );
 }

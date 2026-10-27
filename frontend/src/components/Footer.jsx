@@ -7,9 +7,9 @@ function Footer() {
     <footer className="w-full border-t border-neutral-900 bg-[#0a0a0a] py-12 text-sm text-neutral-400">
             <div className="mx-auto max-w-7xl px-4 flex flex-col md:flex-row justify-between items-center gap-6">
                 <div className="flex flex-col items-center md:items-start gap-4">
-                    <Logo width="80px" />
-                    <p>
-                        &copy; 2026 DP.
+                    <Logo imgClassName="h-9 w-auto" />
+                    <p className="text-xs text-neutral-500">
+                        &copy; {new Date().getFullYear()} CineFlow. All rights reserved.
                     </p>
                 </div>
                 

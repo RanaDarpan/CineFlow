@@ -1,8 +1,8 @@
-# 🎬 DP - Premium OTT Streaming Platform
+# 🎬 CineFlow - Premium OTT Streaming Platform
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Status](https://img.shields.io/badge/status-active-success.svg)
 
-> **DP** is a  feature-rich full-stack OTT streaming platform built with the MERN stack, offering secure subscription management, multi-profile support, and an immersive playback experience for movies and series. It features a robust admin dashboard for content curation and a modern, responsible dark-themed frontend designed for seamless video streaming.
+> **CineFlow** is a feature-rich full-stack OTT streaming platform built with the MERN stack, offering secure subscription management, multi-profile support, and an immersive playback experience for movies and series. It features a robust admin dashboard for content curation and a modern, responsive dark-themed frontend designed for seamless video streaming.
 
 ---
 
@@ -62,7 +62,7 @@
 
 ## 🏗️ Architecture & Tech Stack
 
-DP is built on a modern **MERN** architecture, designed for fast development and straightforward cloud deployment.
+CineFlow is built on a modern **MERN** architecture, designed for fast development and straightforward cloud deployment.
 
 | Layer | Technology | Key Features |
 |-------|------------|--------------|
@@ -103,7 +103,7 @@ DP is built on a modern **MERN** architecture, designed for fast development and
 *   **Media Management**: Direct upload integrations for thumbnails, banners, and video files.
 *   **Content Organization**: Manage genres, age ratings, and release years.
 
-### 🎨 UI/UX Design ("DP" Theme)
+### 🎨 UI/UX Design ("CineFlow" Theme)
 *   **Immersive Dark Mode**: A "Content-First" dark aesthetic minimizing distractions.
 *   **Mobile Responsive**: Fully optimized grid layouts that adapt from 4K desktops to mobile screens.
 *   **Micro-Interactions**: Smooth hover effects, transitions, and loading skeletons for a polished feel.
@@ -208,5 +208,5 @@ The frontend will run on `http://localhost:5173`.
 | `VITE_SERVER` | Full base URL to backend API (e.g., `http://localhost:8000/api/v1` or `https://your-backend.onrender.com/api/v1`) |
 
 <p align="center">
-  Built with ❤️ by Dhairya Patel
+  Built with ❤️ by Rana Darpan
 </p>

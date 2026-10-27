@@ -18,15 +18,15 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "name": "backend",
+  "name": "cineflow-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "CineFlow OTT Platform Backend",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
     "start": "node -r dotenv/config --experimental-json-modules src/index.js"
   },
-  "author": "",
+  "author": "Rana Darpan",
   "license": "ISC"
 }

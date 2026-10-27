@@ -52,7 +52,7 @@ app.use(express.urlencoded({extended:true}))
 app.get("/", (req, res) => {
     res.status(200).json({
         success: true,
-        message: "OTT Platform Backend API is running",
+        message: "CineFlow Backend API is running",
         uptime: `${Math.floor(process.uptime())}s`
     })
 })

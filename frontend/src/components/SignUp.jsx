@@ -7,6 +7,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import Button from "./Button"
 import Input from "./Input"
+import Logo from "./Logo"
 
 export default function SignUp() {
 
@@ -31,9 +32,9 @@ export default function SignUp() {
     return(
         <div className="flex min-h-[calc(100vh-4rem)] items-center justify-center w-full px-4 py-12">
             <div className={`mx-auto w-full max-w-md bg-neutral-900/80 backdrop-blur-sm rounded-2xl p-8 border border-neutral-800 shadow-2xl`}>
-                <div className="mb-8 flex justify-center">
-                   {/* Import Logo if needed, or just keep consistent header */}
-                   <span className="text-xl font-semibold tracking-tight text-white">Create Account</span>
+                <div className="mb-6 flex flex-col items-center justify-center gap-3">
+                   <Logo imgClassName="h-14 w-auto" />
+                   <h2 className="text-xl font-bold tracking-tight text-white">Create Account</h2>
                 </div>
                 
 

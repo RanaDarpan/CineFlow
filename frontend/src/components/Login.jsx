@@ -43,8 +43,8 @@ export default function Login(){
       <div className="flex min-h-[calc(100vh-4rem)] items-center justify-center w-full px-4 py-12">
       <div
         className={`mx-auto w-full max-w-md bg-neutral-900/80 backdrop-blur-sm rounded-2xl p-8 border border-neutral-800 shadow-2xl`}>
-        <div className="mb-8 flex justify-center">
-            <Logo width="auto" />
+        <div className="mb-6 flex justify-center">
+            <Logo imgClassName="h-16 w-auto" />
         </div>
         <h2 className="text-center text-2xl font-bold leading-tight text-white mb-2">
           Welcome back
